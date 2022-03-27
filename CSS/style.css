@@ -1,0 +1,111 @@
+* Common Css Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;;
+} 
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* //Common Css End */
+/* About Section Css Start */
+#about{
+    padding: 90px 0;
+}
+
+ .sec_info h2{
+    font-size: 46px;
+    color: #02918c;
+}
+
+
+
+ .sec_info p{
+    line-height: 41px;
+    font-size: 16px;
+    color: #7e8287;
+    margin: 0 auto;
+
+}
+.sec_info p span{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+#about .about_item_container{
+    margin-top: 75px;
+}
+
+#about .about_item{
+    width: 12%;
+    color: #7e8287;
+    border-right: 1px solid #d9dbdb;
+    padding: 37px 65px;
+    margin-top: 94px;
+}
+#about .sec_info p{
+    width: 874px;
+}
+#about .about_item:last-child{
+    border-right-color: transparent;
+}
+#about .about_item h5{
+    font-size: 16px;
+    margin: 20px 0;
+}
+#about .about_item p{
+    font-size: 11px;
+    line-height: 21px;
+}
+
+/* //About Section Css End */
+
+
+/* Service Section Css Start */
+#service .service_content{
+    width: 50%;
+}
+#service .service_item{
+    width: 50%;
+}
+#service .service_item h5{
+    font-size: 16px;
+    margin: 20px 0;
+    color: #7e8287;
+}
+#service{
+    padding: 65px 0;
+    background-image: url(../img/img-8.png);
+    background-size: cover;
+}
+#service .service_item p{
+    font-size: 11px;
+    line-height: 21px;
+    width: 160px;
+    margin: 25px 0;
+    color: #7e8287
+}
+
+/* //Service Section Css End */
